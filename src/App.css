@@ -14,12 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: cornflowerblue;
+  min-height: 8vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  padding-left: 1em;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +37,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.userComponentContainer {
+  background-color: white;
+  margin: 10em 30em;
+  min-height: 30em;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.userComponentContainer h1 {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.inlineText {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.inlineText h2 {
+  margin: 10px;
+}
+
+.headerInline {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
 }
